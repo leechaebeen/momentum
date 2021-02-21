@@ -12,13 +12,13 @@ function getTime()
     const hours = date.getHours();
     const seconds = date.getSeconds();
 
-    clockTitle.innerText = `${hours}:${minutes}:${seconds}`;
+    clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours }:${minutes < 10? `0${minutes}`: minutes}:${ seconds < 10 ? `0${seconds}`: seconds}`;
+
 }
 
-// ■ setInterval() : 일정한 시간 간격으로 작업을 수행하기 위해 사용하는 함수 
+// ■ setInterval() : 일정한 시간 간격으로 작업을 수행하기 위해 사용하는 함수
 //    setInterval(실행할 함수명, 실행하고 싶은 간격 - millisecond 단위)
 //    ex) setInterval(fn,1000)
-//
 
 function init()
 {

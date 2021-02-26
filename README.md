@@ -1,6 +1,7 @@
 # momentum
 javascript 공부, momentum 클론 코딩 
 
+* 현재 시간 보여주기 
 * localStorage 이용한 사용자 이름 저장 
 * localStorage 이용한 to do 추가,삭제 기능 
 * 랜덤 배경이미지 
